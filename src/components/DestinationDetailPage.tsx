@@ -19,7 +19,7 @@ import {
 } from 'lucide-react';
 import RaftingDetailPage from './RaftingDetailPage';
 import { useLanguage } from '../i18n/LanguageContext';
-import { getOptimizedCloudinaryUrl } from '../utils/cloudinary';
+import { getOptimizedCloudinaryUrl, generateCloudinarySrcSet } from '../utils/cloudinary';
 import { TOUR_TRANSLATIONS, MULTIDAY_TRANSLATIONS } from '../utils/localizedData';
 
 interface PackagePreview {
@@ -1816,6 +1816,8 @@ export default function DestinationDetailPage({ destinationName, onBack, onBookN
           <div className="relative aspect-[16/11] w-full overflow-hidden bg-neutral-950">
             <img
               src={getOptimizedCloudinaryUrl(pkg.image, { width: 600, quality: 'auto', format: 'auto' })}
+              srcSet={generateCloudinarySrcSet(pkg.image, [300, 450, 600])}
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               alt={pkg.title}
               loading="lazy"
               referrerPolicy="no-referrer"

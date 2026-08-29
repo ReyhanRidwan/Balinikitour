@@ -4,7 +4,7 @@ import { ChevronDown, MapPin, Compass, ArrowRight, Search, Activity, Clock, Doll
 import { SearchFilters } from '../types';
 import { useLanguage } from '../i18n/LanguageContext';
 import { Language } from '../i18n/translations';
-import { getOptimizedCloudinaryUrl } from '../utils/cloudinary';
+import { getOptimizedCloudinaryUrl, generateCloudinarySrcSet } from '../utils/cloudinary';
 
 export interface HeroSlideItem {
   id: string;
@@ -583,6 +583,8 @@ export default function HeroSection({
           >
             <img
               src={getOptimizedCloudinaryUrl(currentSlide.bgImage, { width: 1920, quality: 'auto', format: 'auto' })}
+              srcSet={generateCloudinarySrcSet(currentSlide.bgImage, [640, 1024, 1920])}
+              sizes="100vw"
               alt={currentSlide.title}
               loading="eager"
               // @ts-ignore
@@ -810,6 +812,7 @@ export default function HeroSection({
                 value={searchFilters.destination}
                 onChange={(e) => handleSearchChange('destination', e.target.value)}
                 className="w-full bg-transparent text-sm font-semibold text-neutral-200 focus:outline-none cursor-pointer appearance-none"
+                aria-label={tHero.searchDestLabel}
               >
                 <option value="" className="bg-neutral-900 text-neutral-400">{tHero.allLocations}</option>
                 <option value="Bedugul" className="bg-neutral-900 text-neutral-200">Bedugul</option>
@@ -835,6 +838,7 @@ export default function HeroSection({
                 value={searchFilters.activity}
                 onChange={(e) => handleSearchChange('activity', e.target.value)}
                 className="w-full bg-transparent text-sm font-semibold text-neutral-200 focus:outline-none cursor-pointer appearance-none"
+                aria-label={tHero.searchActLabel}
               >
                 <option value="" className="bg-neutral-900 text-neutral-400">{tHero.allActivities}</option>
                 <option value="Animal Encounter" className="bg-neutral-900 text-neutral-200">{tHero.actAnimal}</option>
@@ -857,6 +861,7 @@ export default function HeroSection({
                 value={searchFilters.duration}
                 onChange={(e) => handleSearchChange('duration', e.target.value)}
                 className="w-full bg-transparent text-sm font-semibold text-neutral-200 focus:outline-none cursor-pointer appearance-none"
+                aria-label={tHero.searchDurLabel}
               >
                 <option value="" className="bg-neutral-900 text-neutral-400">{tHero.allDurations}</option>
                 <option value="Up to 5 Hours" className="bg-neutral-900 text-neutral-200">{tHero.dur5Hours}</option>
@@ -878,6 +883,7 @@ export default function HeroSection({
                 value={searchFilters.tripType}
                 onChange={(e) => handleSearchChange('tripType', e.target.value)}
                 className="w-full bg-transparent text-sm font-semibold text-neutral-200 focus:outline-none cursor-pointer appearance-none"
+                aria-label={tHero.searchTypeLabel}
               >
                 <option value="" className="bg-neutral-900 text-neutral-400">{tHero.allTypes}</option>
                 <option value="Full Day Tour" className="bg-neutral-900 text-neutral-200">{tHero.typeFullDay}</option>
@@ -900,6 +906,7 @@ export default function HeroSection({
                 value={searchFilters.price}
                 onChange={(e) => handleSearchChange('price', e.target.value)}
                 className="w-full bg-transparent text-sm font-semibold text-neutral-200 focus:outline-none cursor-pointer appearance-none"
+                aria-label={tHero.searchPriceLabel}
               >
                 <option value="" className="bg-neutral-900 text-neutral-400">{tHero.allPrices}</option>
                 <option value="Under $50" className="bg-neutral-900 text-neutral-200">{tHero.priceUnder50}</option>

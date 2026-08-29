@@ -45,3 +45,17 @@ export function getOptimizedCloudinaryUrl(url: string, options: CloudinaryOption
 
   return `${parts[0]}/upload/${transformString}/${parts[1]}`;
 }
+
+/**
+ * Generates a Cloudinary srcset for responsive images.
+ */
+export function generateCloudinarySrcSet(url: string, widths: number[], options: Omit<CloudinaryOptions, 'width'> = {}): string {
+  if (!url || !url.includes('cloudinary.com')) return '';
+
+  return widths
+    .map(width => {
+      const optimizedUrl = getOptimizedCloudinaryUrl(url, { ...options, width });
+      return `${optimizedUrl} ${width}w`;
+    })
+    .join(', ');
+}

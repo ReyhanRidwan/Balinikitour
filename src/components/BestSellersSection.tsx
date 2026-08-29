@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Clock } from 'lucide-react';
 import { useLanguage } from '../i18n/LanguageContext';
-import { getOptimizedCloudinaryUrl } from '../utils/cloudinary';
+import { getOptimizedCloudinaryUrl, generateCloudinarySrcSet } from '../utils/cloudinary';
 
 export interface BestSellerPackage {
   id: string;
@@ -115,6 +115,8 @@ export default function BestSellersSection({ onSelectPackage }: BestSellersSecti
               {/* Background Image */}
               <img
                 src={getOptimizedCloudinaryUrl(featuredPackage.image, { width: 1000, quality: 'auto', format: 'auto' })}
+                srcSet={generateCloudinarySrcSet(featuredPackage.image, [640, 1024, 1920])}
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 alt={featuredPackage.title}
                 loading="lazy"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
@@ -168,6 +170,8 @@ export default function BestSellersSection({ onSelectPackage }: BestSellersSecti
                   {/* Background Image */}
                   <img
                     src={getOptimizedCloudinaryUrl(pkg.image, { width: 600, quality: 'auto', format: 'auto' })}
+                    srcSet={generateCloudinarySrcSet(pkg.image, [300, 450, 600])}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                     alt={pkg.title}
                     loading="lazy"
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"

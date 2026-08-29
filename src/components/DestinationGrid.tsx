@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Star, ArrowUpRight, MapPin, Compass } from 'lucide-react';
 import { useLanguage } from '../i18n/LanguageContext';
-import { getOptimizedCloudinaryUrl } from '../utils/cloudinary';
+import { getOptimizedCloudinaryUrl, generateCloudinarySrcSet } from '../utils/cloudinary';
 
 interface DestinationCard {
   id: string;
@@ -149,6 +149,8 @@ export default function DestinationGrid({ onSelectDestination }: DestinationGrid
               {/* Background Image */}
               <img
                 src={getOptimizedCloudinaryUrl(dest.image, { width: 800, quality: 'auto', format: 'auto' })}
+                srcSet={generateCloudinarySrcSet(dest.image, [400, 600, 800])}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 alt={dest.title}
                 loading="lazy"
                 referrerPolicy="no-referrer"

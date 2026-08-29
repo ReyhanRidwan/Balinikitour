@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Sparkles, ArrowRight, ShieldCheck } from 'lucide-react';
 import { useLanguage } from '../i18n/LanguageContext';
-import { getOptimizedCloudinaryUrl } from '../utils/cloudinary';
+import { getOptimizedCloudinaryUrl, generateCloudinarySrcSet } from '../utils/cloudinary';
 
 interface ActivitySectionProps {
   onBookNow: (experienceId: string) => void;
@@ -78,6 +78,8 @@ export default function ActivitySection({ onBookNow }: ActivitySectionProps) {
               {/* Card Image with smooth hover scale */}
               <img
                 src={getOptimizedCloudinaryUrl(activity.image, { width: 600, quality: 'auto', format: 'auto' })}
+                srcSet={generateCloudinarySrcSet(activity.image, [300, 450, 600])}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 alt={activity.title}
                 loading="lazy"
                 referrerPolicy="no-referrer"

@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { Search, MapPin, Clock, Check, ChevronDown, ChevronUp, SlidersHorizontal, LayoutGrid, List } from 'lucide-react';
+import { getOptimizedCloudinaryUrl, generateCloudinarySrcSet } from '../utils/cloudinary';
 import { EXPERIENCES } from '../data';
 import { multiDayPackages } from '../data/multiDayPackages';
 import { SearchFilters } from '../types';
@@ -462,6 +463,7 @@ export default function TripSearchResultPage({ onViewDetails, initialFilters }: 
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value as any)}
                   className="w-full appearance-none bg-neutral-900 border border-neutral-800 rounded-xl py-3 pl-4 pr-10 text-neutral-300 focus:outline-none focus:border-gold-500/50 cursor-pointer"
+                  aria-label="Sort search results"
                 >
                   <option value="top_rated">Sort (Top Rated)</option>
                   <option value="price_low">Price (Low to High)</option>
@@ -506,9 +508,12 @@ export default function TripSearchResultPage({ onViewDetails, initialFilters }: 
                     </div>
                   )}
                   <img 
-                    src={trip.image} 
+                    src={getOptimizedCloudinaryUrl(trip.image, { width: 600, quality: 'auto', format: 'auto' })} 
+                    srcSet={generateCloudinarySrcSet(trip.image, [300, 450, 600])}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 25vw"
                     alt={trip.title} 
                     referrerPolicy="no-referrer"
+                    loading="lazy"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1 z-10">

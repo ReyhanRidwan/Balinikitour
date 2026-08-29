@@ -647,6 +647,7 @@ Halo Concierge Bali Niki Tour, saya ingin konfirmasi pemesanan paket tur di atas
                     }}
                     id="booking-select-experience"
                     className="w-full bg-neutral-900 border border-gold-400/30 px-4 py-3.5 text-sm text-gold-100 rounded-lg focus:outline-none focus:border-gold-400 font-sans cursor-pointer shadow-inner"
+                    aria-label={tModal.selectPkg}
                   >
                     {categories.map((cat) => (
                       <optgroup key={cat} label={`── ${cat} ──`} className="bg-neutral-900 text-gold-400 font-bold font-mono">
@@ -858,6 +859,7 @@ Halo Concierge Bali Niki Tour, saya ingin konfirmasi pemesanan paket tur di atas
                           onChange={(e) => setCountry(e.target.value)}
                           id="booking-input-country"
                           className="w-full bg-neutral-900 border border-gold-400/30 px-3.5 py-2.5 text-xs text-gold-100 rounded-lg focus:outline-none focus:border-gold-400 font-sans cursor-pointer"
+                          aria-label={tModal.countryLabel}
                         >
                           {COUNTRIES_LIST.map((c) => (
                             <option key={c} value={c} className="bg-neutral-950 text-gold-100">

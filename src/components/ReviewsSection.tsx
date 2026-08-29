@@ -221,6 +221,7 @@ export default function ReviewsSection() {
                           value={newExpId}
                           onChange={(e) => setNewExpId(e.target.value)}
                           className="w-full bg-luxury-dark border border-gold-400/15 px-4 py-2.5 text-sm text-gold-100 rounded-sm focus:outline-none focus:border-gold-400 cursor-pointer"
+                          aria-label={language === 'id' ? 'Pilih tur yang diambil' : 'Select expedition taken'}
                         >
                           <option value="jeep-adventure">Bali Jeep Adventure</option>
                           <option value="ocean-escape">Ocean Luxury Escape</option>
