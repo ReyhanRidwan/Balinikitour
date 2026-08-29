@@ -1,0 +1,8 @@
+{
+  "name": "balinikitour",
+  "description": "Bali private luxury tour platform focusing on optimized performance, high-quality Cloudinary image delivery, and multilingual support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
