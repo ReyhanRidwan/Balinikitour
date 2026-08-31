@@ -281,15 +281,14 @@ export const TOUR_TRANSLATIONS: Record<string, Partial<Record<Language, Localize
         'Pure, crystal-clear natural mountain spring water with Grade 3-4 rapids',
         'Heart-pounding 4-meter Bajing dam plunge guided by licensed river masters',
         'Indonesian buffet lunch served at scenic riverside restaurant overlooking rice terraces',
-        'Hot showers, clean changing rooms, locker storage, and full insurance coverage'
+        'Hot showers, clean changing rooms, locker storage, and professional gear'
       ],
       inclusions: [
         'Private hotel pick-up and drop-off in air-conditioned transport',
         'Professional river raft master and safety briefing',
         'Complete international safety equipment (CE-approved helmet, life vest, paddle)',
         'Indonesian buffet lunch, mineral water, tea, and coffee',
-        'Shower facilities, towel, soap, and waterproof safety dry-bag for valuables',
-        'Full activity accident insurance coverage'
+        'Shower facilities, towel, soap, and waterproof safety dry-bag for valuables'
       ],
       exclusions: [
         'Professional action photos and video documentation (available on-site)',
@@ -311,15 +310,14 @@ export const TOUR_TRANSLATIONS: Record<string, Partial<Record<Language, Localize
         '12 KM scenic rafting route through pristine Ubud rainforest gorge',
         'Admire hundreds of meters of intricate stone cliff carvings depicting the Ramayana epic',
         'Stop at natural hidden waterfalls for swimming and photography',
-        'Full buffet lunch, clean shower facilities, and complete safety insurance'
+        'Full buffet lunch and clean shower facilities'
       ],
       inclusions: [
         'Private AC hotel return transfers',
         'Professional English-speaking river guide',
         'Complete rafting safety gear (helmet, life vest, paddle)',
         'Buffet lunch and drinking water',
-        'Hot shower facilities and towel',
-        'Comprehensive activity insurance'
+        'Hot shower facilities and towel'
       ],
       exclusions: [
         'Personal photo CD / USB package',
@@ -346,7 +344,7 @@ export const TOUR_TRANSLATIONS: Record<string, Partial<Record<Language, Localize
         'Return hotel transport in private AC car',
         'Certified river guide and safety equipment',
         'Buffet lunch and refreshments',
-        'Shower, changing room, and insurance'
+        'Shower, changing room, and safety equipment'
       ],
       exclusions: [
         'Photo documentation purchases',
@@ -437,8 +435,7 @@ export const TOUR_TRANSLATIONS: Record<string, Partial<Record<Language, Localize
         'Celebratory post-trek buffet lunch'
       ],
       exclusions: [
-        'Personal warm alpine clothing and hiking boots',
-        'Travel insurance (personal trekking coverage recommended)'
+        'Personal warm alpine clothing and hiking boots'
       ]
     }
   },
@@ -462,7 +459,7 @@ export const TOUR_TRANSLATIONS: Record<string, Partial<Record<Language, Localize
         'Mountain bikes, safety helmets, and safety escort vehicle',
         'Professional English-speaking cycling guides',
         'Breakfast in Kintamani & buffet lunch in Ubud',
-        'Mineral water, fresh seasonal fruits, and insurance'
+        'Mineral water and fresh seasonal fruits'
       ],
       exclusions: [
         'Personal purchases and gratuities'

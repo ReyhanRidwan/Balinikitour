@@ -56,7 +56,6 @@ export const multiDayPackages = [
     ],
     exclusions: [
       'International and domestic airfare',
-      'Travel and medical insurance',
       'Services not mentioned or promised in the package',
       'Professional photography and video services, available for purchase on the spot',
       'Emergency and personal expenses, including shopping, flight charter, doctor on call, bar bills, telephone, laundry, and other personal expenses',
@@ -126,7 +125,6 @@ export const multiDayPackages = [
     ],
     exclusions: [
       'Tiket Pesawat Internasional dan Domestik',
-      'Asuransi Perjalanan dan Medis',
       'Layanan yang tidak disebutkan dalam program',
       'Foto atau Video oleh fotografer profesional (dapat dibeli di lokasi)',
       'Pengeluaran Darurat dan Pribadi (belanja, charter pesawat, dokter, dll)',
@@ -205,7 +203,6 @@ export const multiDayPackages = [
     ],
     exclusions: [
       'International and Domestic Airfare',
-      'Your travel and medical insurance',
       'Services not mentioned or not promised',
       'Photo or Video by professional photography available to purchase on the spot',
       'Emergency and Personal Expenses such as shopping, flight charter, doctor on call, bar bills, telephone, laundry, etc',
@@ -278,7 +275,6 @@ export const multiDayPackages = [
     ],
     exclusions: [
       'International and Domestic Airfare',
-      'Your travel and medical insurance',
       'Services not mentioned or not promised',
       'Photo or Video by professional photography available to purchase on the spot',
       'Emergency and Personal Expenses such as shopping, flight charter, doctor on call, bar bills, telephone, laundry, etc',

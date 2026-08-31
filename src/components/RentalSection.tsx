@@ -167,7 +167,7 @@ export default function RentalSection({ onSelectVehicle, onNavigateToRentalPage 
                       </div>
                       <div className="flex items-center gap-2">
                         <Shield size={12} className="text-gold-400" />
-                        <span>{language === 'id' ? 'Asuransi All-Risk' : 'All-Risk Insurance'}</span>
+                        <span>{language === 'id' ? 'Armada Terawat' : 'Well Maintained'}</span>
                       </div>
                     </div>
                   </div>

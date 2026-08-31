@@ -168,9 +168,7 @@ export interface TranslationDictionary {
     selectPackage: string;
     selectDate: string;
     guestsCount: string;
-    addonsTitle: string;
     participantsManifest: string;
-    insuranceManifestNotice: string;
     participant: string;
     mainBookerTag: string;
     adult: string;
@@ -304,7 +302,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       guideTitle: 'Driver & Pemandu Berpengalaman',
       guideDesc: 'Driver lokal ramah, profesional, dan berlisensi yang memahami rute terbaik, sejarah budaya Bali, dan spot foto tersembunyi.',
       priceTitle: 'Harga Transparan & All-In',
-      priceDesc: 'Semua biaya diinfokan dengan jelas sejak awal tanpa ada biaya siluman. Termasuk BBM, tiket masuk objek wisata, dan asuransi.',
+      priceDesc: 'Semua biaya diinfokan dengan jelas sejak awal tanpa ada biaya siluman. Termasuk BBM dan tiket masuk objek wisata.',
       customTitle: 'Itinerary Fleksibel Bebas Custom',
       customDesc: 'Bebas menyesuaikan jadwal, durasi kunjungan, rute alternatif, atau menambah destinasi sesuai preferensi Anda.',
       fleetTitle: 'Armada Nyaman, Bersih & Ber-AC',
@@ -352,9 +350,9 @@ export const translations: Record<Language, TranslationDictionary> = {
       title: 'Konsultasi & Reservasi Liburan Anda',
       subtitle: 'Pramutamu dan konsultan perjalanan kami siap melayani pertanyaan, kustomisasi itinerary, dan pemesanan tur Anda 24/7.',
       hqTitle: 'Kantor Operasional Bali',
-      hqDesc: 'Jl. Raya Seminyak No. 108X, Seminyak, Kuta, Bali 80361, Indonesia',
+      hqDesc: 'Bali Niki Tour (Depan M-Mart Hotel Karti), Jl. Kartika Plaza, Kuta, Bali',
       hotlineTitle: 'WhatsApp Hotline & Concierge',
-      hotlineDesc: '+62 812-3456-7890 (Aktif 24 Jam)',
+      hotlineDesc: '+62 813-3725-2651 (Aktif 24 Jam)',
       emailTitle: 'Email Resmi',
       hoursTitle: 'Jam Layanan Operasional',
       hoursDesc: 'Senin - Minggu: 24 Jam (Layanan Darurat & Booking)',
@@ -388,9 +386,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       selectPackage: 'Pilih Paket Tur',
       selectDate: 'Pilih Tanggal Wisata',
       guestsCount: 'Jumlah Peserta',
-      addonsTitle: 'Opsi Tambahan & Upgrade (Opsional)',
       participantsManifest: 'Daftar Nama Peserta',
-      insuranceManifestNotice: 'Diperlukan untuk manifest tur & asuransi keselamatan perjalanan.',
       participant: 'Peserta',
       mainBookerTag: '(Pemesan Utama)',
       adult: 'Dewasa',
@@ -521,7 +517,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       guideTitle: 'Expert English-Speaking Guides',
       guideDesc: 'Warm, licensed local drivers who master the smoothest routes, Balinese history, and top photography viewpoints.',
       priceTitle: 'Transparent All-Inclusive Pricing',
-      priceDesc: 'No hidden fees or surprise costs. Fuel, parking, attraction admissions, and insurance are clearly included upfront.',
+      priceDesc: 'No hidden fees or surprise costs. Fuel, parking, and attraction admissions are clearly included upfront.',
       customTitle: 'Flexible & Tailored Itineraries',
       customDesc: 'Adjust departure times, linger longer at favorite spots, or customize stops to match your travel rhythm.',
       fleetTitle: 'Modern, Pristine & Air-Conditioned Fleet',
@@ -569,9 +565,9 @@ export const translations: Record<Language, TranslationDictionary> = {
       title: 'Plan Your Dream Bali Holiday',
       subtitle: 'Our VIP concierge team is eager to assist with itinerary planning, private group arrangements, and bookings.',
       hqTitle: 'Bali Operations HQ',
-      hqDesc: 'Jl. Raya Seminyak No. 108X, Seminyak, Kuta, Bali 80361, Indonesia',
+      hqDesc: 'Bali Niki Tour (In Front Of M-Mart Hotel Karti Area), Jl. Kartika Plaza, Kuta, Bali',
       hotlineTitle: 'WhatsApp Hotline & Concierge',
-      hotlineDesc: '+62 812-3456-7890 (Available 24/7)',
+      hotlineDesc: '+62 813-3725-2651 (Available 24/7)',
       emailTitle: 'Official Email',
       hoursTitle: 'Operating Hours',
       hoursDesc: 'Monday - Sunday: 24/7 (Emergency & Bookings)',
@@ -605,9 +601,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       selectPackage: 'Choose Tour Package',
       selectDate: 'Select Travel Date',
       guestsCount: 'Number of Guests',
-      addonsTitle: 'Optional Upgrades & Add-ons',
       participantsManifest: 'Participant Manifest',
-      insuranceManifestNotice: 'Required for tour passenger manifest and insurance coverage.',
       participant: 'Participant',
       mainBookerTag: '(Main Booker)',
       adult: 'Adult',

@@ -66,7 +66,7 @@ export default function ContactSection() {
                       {language === 'id' ? 'Lokasi Kantor Seminyak' : 'Seminyak HQ Location'}
                     </h4>
                     <p className="text-gold-200/60 text-xs md:text-sm leading-relaxed mt-1">
-                      Jl. Raya Seminyak No. 108X, Seminyak, Kuta, Kabupaten Badung, Bali 80361, Indonesia
+                      Bali Niki Tour In Front Of M-Mart Hotel Karti Area , Jl Kartika Plaza Kuta Bali
                     </p>
                   </div>
                 </div>
@@ -78,7 +78,7 @@ export default function ContactSection() {
                       {language === 'id' ? 'WhatsApp Hotline & Concierge' : 'WhatsApp Hotline & Concierge'}
                     </h4>
                     <p className="text-gold-200/60 text-xs md:text-sm leading-relaxed mt-1">
-                      +62 812-2565-7382 ({language === 'id' ? 'Tersedia 24/7' : 'Available 24/7'})
+                      +62 813-3725-2651 ({language === 'id' ? 'Tersedia 24/7' : 'Available 24/7'})
                     </p>
                   </div>
                 </div>
@@ -88,7 +88,7 @@ export default function ContactSection() {
                   <div>
                     <h4 className="font-mono text-xs uppercase tracking-widest text-gold-300 font-bold">VIP Email Desk</h4>
                     <p className="text-gold-200/60 text-xs md:text-sm leading-relaxed mt-1">
-                      concierge@balinikitour.com
+                      jayaputra040474@gmail.com
                     </p>
                   </div>
                 </div>

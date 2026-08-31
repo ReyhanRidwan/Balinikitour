@@ -465,11 +465,6 @@ export default function BookingModal({
   };
 
   const buildWhatsAppMessage = (bookingCode: string) => {
-    const selectedAddonsList = BOOKING_ADDONS.filter(a => selectedAddons.includes(a.id));
-    const addonsText = selectedAddonsList.length > 0
-      ? selectedAddonsList.map(a => `• ${a.name} (+$${a.price})`).join('\n')
-      : '• Tidak ada upgrade tambahan';
-
     const participantsText = participants.map((p, idx) => 
       `${idx + 1}. ${p.name} - (${p.ageCategory})`
     ).join('\n');
@@ -492,16 +487,12 @@ export default function BookingModal({
 *📋 Daftar Peserta (${guests} Orang):*
 ${participantsText}
 
-*✨ Upgrade / Addon:*
-${addonsText}
-
 *📝 Catatan / Permintaan Khusus:*
 ${specialNotes || '-'}
 
 ━━━━━━━━━━━━━━━━━━━━
 *💰 Rincian Biaya:*
 • Tarif Dasar: $${basePrice}
-• Upgrade: $${addonsPrice}
 • Pajak & Layanan (10%): $${tax}
 *TOTAL ESTIMASI:* $${grandTotal} (USD)
 ━━━━━━━━━━━━━━━━━━━━
@@ -530,7 +521,7 @@ Halo Concierge Bali Niki Tour, saya ingin konfirmasi pemesanan paket tur di atas
       participants,
       totalPrice: grandTotal,
       bookingCode,
-      paymentMethod: 'Konfirmasi via WhatsApp Concierge (+62 812-2565-7382)',
+      paymentMethod: 'Konfirmasi via WhatsApp Concierge (+62 813-3725-2651)',
       createdAt: new Date().toISOString(),
     };
 
@@ -577,7 +568,6 @@ Halo Concierge Bali Niki Tour, saya ingin konfirmasi pemesanan paket tur di atas
     requiredBadge: language === 'en' ? 'Required' : language === 'zh' ? '必填' : language === 'ru' ? 'Обязательно' : 'Wajib',
     notesLabel: language === 'en' ? 'Pickup Location / Special Notes' : language === 'zh' ? '接送地点 / 特殊要求' : language === 'ru' ? 'Место встречи / Особые пожелания' : 'Lokasi Jemput / Permintaan Khusus',
     notesPlaceholder: language === 'en' ? 'Hotel / Villa name / Pickup address in Bali, or special notes...' : language === 'zh' ? '巴厘岛酒店/别墅名称/接送地址或特殊要求...' : language === 'ru' ? 'Название отеля / виллы / адрес трансфера на Бали...' : 'Nama Hotel / Villa / Alamat Penjemputan di Bali, atau catatan khusus...',
-    upgrades: language === 'en' ? 'Optional Upgrades & Add-ons' : language === 'zh' ? '可选升级与附加服务' : language === 'ru' ? 'Дополнительные услуги (по желанию)' : 'Upgrade & Layanan Tambahan (Opsional)',
     summaryTitle: language === 'en' ? 'Order Summary' : language === 'zh' ? '订单摘要' : language === 'ru' ? 'Сводка заказа' : 'Ringkasan Pesanan',
     baseRate: language === 'en' ? 'Base Rate' : language === 'zh' ? '基础费用' : language === 'ru' ? 'Базовый тариф' : 'Tarif Dasar',
     taxConcierge: language === 'en' ? 'Taxes & Concierge Service' : language === 'zh' ? '税费及礼宾服务' : language === 'ru' ? 'Налоги и консьерж-сервис' : 'Pajak & Layanan Concierge',
@@ -885,54 +875,6 @@ Halo Concierge Bali Niki Tour, saya ingin konfirmasi pemesanan paket tur di atas
                   </div>
                 </div>
 
-                {/* Optional Upgrades */}
-                <div className="space-y-3 pt-2 text-left">
-                  <div className="border-b border-gold-900/20 pb-2 flex justify-between items-center">
-                    <label className="block text-xs uppercase tracking-widest text-gold-300/80 font-semibold font-mono">
-                      {tModal.upgrades}
-                    </label>
-                    <span className="text-[10px] font-mono text-gold-400/60">Bespoke Concierge</span>
-                  </div>
-
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    {BOOKING_ADDONS.map((addon) => {
-                      const isChecked = selectedAddons.includes(addon.id);
-                      return (
-                        <div
-                          key={addon.id}
-                          onClick={() => handleAddonToggle(addon.id)}
-                          className={`flex items-start justify-between p-3.5 border rounded-lg transition-all duration-300 cursor-pointer ${
-                            isChecked
-                              ? 'bg-gold-500/10 border-gold-400'
-                              : 'bg-neutral-900/40 border-gold-900/20 hover:border-gold-400/40'
-                          }`}
-                        >
-                          <div className="flex items-start space-x-2.5 pr-2">
-                            <div
-                              className={`mt-0.5 w-4 h-4 rounded border flex items-center justify-center transition-all shrink-0 ${
-                                isChecked ? 'bg-gold-400 border-gold-400 text-neutral-950' : 'border-gold-400/30'
-                              }`}
-                            >
-                              {isChecked && <Check size={12} className="stroke-[3]" />}
-                            </div>
-                            <div className="text-left">
-                              <h4 className="text-xs text-gold-200 font-medium">
-                                {addon.name}
-                              </h4>
-                              <p className="text-[10px] text-gold-100/50 mt-0.5 line-clamp-1">
-                                {addon.description}
-                              </p>
-                            </div>
-                          </div>
-                          <span className="font-mono text-xs font-bold text-gold-400 shrink-0">
-                            +${addon.price}
-                          </span>
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-
               </div>
 
               {/* Right Panel Summary Invoice */}
@@ -970,26 +912,9 @@ Halo Concierge Bali Niki Tour, saya ingin konfirmasi pemesanan paket tur di atas
                   </div>
 
                   <div className="space-y-3 text-xs">
-                    <div className="flex justify-between items-center text-gold-100/70">
+                    <div className="flex justify-between items-center text-gold-100/70 pt-3 border-t border-gold-900/20">
                       <span>{tModal.baseRate} ({guests} {tModal.guestsUnit})</span>
                       <span className="font-mono text-gold-100 font-semibold">${basePrice}</span>
-                    </div>
-
-                    {selectedAddons.length > 0 && (
-                      <div className="space-y-1.5 pt-2 border-t border-gold-900/20">
-                        <span className="text-[10px] uppercase font-mono text-gold-400 tracking-wider block">Add-ons</span>
-                        {BOOKING_ADDONS.filter((addon) => selectedAddons.includes(addon.id)).map((addon) => (
-                          <div key={addon.id} className="flex justify-between items-start text-xs text-gold-100/60 pl-2">
-                            <span>{addon.name}</span>
-                            <span className="font-mono text-gold-300">+${addon.price}</span>
-                          </div>
-                        ))}
-                      </div>
-                    )}
-
-                    <div className="flex justify-between items-center text-gold-100/70 pt-3 border-t border-gold-900/20">
-                      <span>Subtotal</span>
-                      <span className="font-mono text-gold-100">${subtotal}</span>
                     </div>
 
                     <div className="flex justify-between items-center text-gold-100/70">
@@ -1026,7 +951,7 @@ Halo Concierge Bali Niki Tour, saya ingin konfirmasi pemesanan paket tur di atas
                   <div className="mt-3.5 space-y-1 text-center">
                     <p className="text-[10px] text-emerald-400/90 font-mono flex items-center justify-center gap-1">
                       <PhoneCall size={10} />
-                      <span>CS Hotline: +62 812-2565-7382 (24/7)</span>
+                      <span>CS Hotline: +62 813-3725-2651 (24/7)</span>
                     </p>
                     <p className="text-[9px] text-gold-300/40">
                       {tModal.disclaimerWa}
@@ -1189,14 +1114,14 @@ Halo Concierge Bali Niki Tour, saya ingin konfirmasi pemesanan paket tur di atas
                       </h5>
                       <p>
                         {language === 'en'
-                          ? '• Private air-conditioned vehicle, professional driver/guide, entrance tickets, fuel, and full travel insurance.'
+                          ? '• Private air-conditioned vehicle, professional driver/guide, entrance tickets, and fuel.'
                           : language === 'zh'
-                          ? '• 私人空调专车、专业中文/英文司机向导、景区门票、油费及全额旅游保险。'
+                          ? '• 私人空调专车、专业中文/英文司机向导、景区门票及油费。'
                           : language === 'ru'
-                          ? '• Автомобиль с кондиционером, опытный водитель/гид, входные билеты, топливо и страховка.'
-                          : '• Mobil ber-AC privat, supir/guide berpengalaman, tiket masuk lokasi, bensin, dan asuransi perjalanan 100%.'}
+                          ? '• Автомобиль с кондиционером, опытный водитель/гид, входные билеты и топливо.'
+                          : '• Mobil ber-AC privat, supir/guide berpengalaman, tiket masuk lokasi, dan bensin.'}
                       </p>
-                      <p>• CS 24/7: <strong>+62 812-2565-7382</strong></p>
+                      <p>• CS 24/7: <strong>+62 813-3725-2651</strong></p>
                     </div>
                   </div>
 

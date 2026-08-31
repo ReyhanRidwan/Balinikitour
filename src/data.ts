@@ -214,8 +214,7 @@ export const EXPERIENCES: Experience[] = [
       'Sewa mobil Kijang Innova ber-AC bersih & prima',
       'Bahan bakar minyak (BBM) penuh untuk hari pertama',
       'Sopir pribadi pariwisata berlisensi resmi',
-      'Peralatan kenyamanan penumpang (tisu, air mineral dingin)',
-      'Asuransi kendaraan menyeluruh (all-risk)'
+      'Peralatan kenyamanan penumpang (tisu, air mineral dingin)'
     ],
     exclusions: [
       'Biaya parkir destinasi dan biaya tol',
@@ -445,8 +444,7 @@ export const EXPERIENCES: Experience[] = [
       'Transportasi privat antar-jemput ber-AC dari hotel',
       'Peralatan rafting lengkap dan instruktur profesional',
       'Fasilitas kamar bilas, shower air panas, dan handuk',
-      'Makan siang prasmanan lezat khas Bali',
-      'Asuransi keselamatan penuh'
+      'Makan siang prasmanan lezat khas Bali'
     ],
     exclusions: [
       'Foto & video dokumentasi profesional (tersedia opsional)',
@@ -529,8 +527,7 @@ export const EXPERIENCES: Experience[] = [
       'Transportasi privat pulang-pergi dari hotel',
       'Instruktur pilot paragliding berpengalaman dan bersertifikat FASI/APPI',
       'Peralatan keselamatan terbang lengkap',
-      'Rekaman video dan foto GoPro resolusi tinggi',
-      'Asuransi keselamatan penerbangan'
+      'Rekaman video dan foto GoPro resolusi tinggi'
     ],
     exclusions: [
       'Pakaian khusus penerbangan (disarankan memakai sepatu kets)',
@@ -571,8 +568,7 @@ export const EXPERIENCES: Experience[] = [
       'Entrance ticket fee to Mount Batur area and government of Bali',
       'One bottle mineral water each person during your Jeep Tour',
       'Hot drink (Tea, Coffee or Hot Chocolate)',
-      '4x4 Classic Jeep Tour & Professional Jeep Driver',
-      'Insurance coverage'
+      '4x4 Classic Jeep Tour & Professional Jeep Driver'
     ],
     exclusions: [
       'Extra Money for any purchasing on the rest spot area',
@@ -616,8 +612,7 @@ export const EXPERIENCES: Experience[] = [
       'Makan siang prasmanan (buffet lunch)',
       'Peralatan rafting berstandar keselamatan internasional',
       'Pemandu rafting profesional lokal',
-      'Handuk, fasilitas kamar mandi, dan toilet',
-      'Perlindungan asuransi'
+      'Handuk, fasilitas kamar mandi, dan toilet'
     ],
     exclusions: [
       'Pengeluaran pribadi untuk belanja di titik peristirahatan',
@@ -660,8 +655,7 @@ export const EXPERIENCES: Experience[] = [
       'Peralatan ATV dan Rafting yang telah disetujui standar kesafetyannya',
       'Pemandu rafting profesional lokal',
       'Handuk (disarankan membawa handuk sendiri)',
-      'Fasilitas kamar mandi (shower) dan toilet',
-      'Perlindungan asuransi'
+      'Fasilitas kamar mandi (shower) dan toilet'
     ],
     exclusions: [
       'Uang ekstra untuk pembelian pribadi di area tempat istirahat',
@@ -703,8 +697,7 @@ export const EXPERIENCES: Experience[] = [
       'Instruktur / Pemandu ATV Berpengalaman',
       'Peralatan ATV Berstandar Internasional (Helm, Sepatu Boot)',
       'Makan Siang Prasmanan (Buffet Lunch)',
-      'Fasilitas Ruang Ganti, Kamar Mandi, dan Handuk',
-      'Perlindungan Asuransi Aktivitas'
+      'Fasilitas Ruang Ganti, Kamar Mandi, dan Handuk'
     ],
     exclusions: [
       'Pengeluaran pribadi & foto/video di lokasi',
@@ -746,8 +739,7 @@ export const EXPERIENCES: Experience[] = [
       'Perlengkapan Standar Keselamatan (Helm & Sepatu Boot)',
       'Akses Terowongan & Gua Kepala Gorilla Kuber',
       'Makan Siang Prasmanan Lezat',
-      'Kamar Mandi, Ruang Ganti, dan Handuk',
-      'Perlindungan Asuransi Aktivitas Resmi'
+      'Kamar Mandi, Ruang Ganti, dan Handuk'
     ],
     exclusions: [
       'Pembelian dokumentasi foto/video pribadi di lokasi',
@@ -789,8 +781,7 @@ export const EXPERIENCES: Experience[] = [
       'Peralatan arung jeram berstandar keselamatan',
       'Pemandu arung jeram profesional',
       'Handuk (disarankan tetap membawa milik pribadi)',
-      'Fasilitas kamar mandi, shower, dan toilet',
-      'Perlindungan asuransi'
+      'Fasilitas kamar mandi, shower, dan toilet'
     ],
     exclusions: [
       'Uang pribadi untuk pembelian di area tempat peristirahatan',
@@ -833,8 +824,7 @@ export const EXPERIENCES: Experience[] = [
       'Peralatan arung jeram berstandar keselamatan',
       'Pemandu arung jeram profesional khas Bali',
       'Handuk (disarankan tetap membawa milik pribadi)',
-      'Fasilitas shower dan toilet',
-      'Perlindungan asuransi'
+      'Fasilitas shower dan toilet'
     ],
     exclusions: [
       'Uang pribadi untuk pembelian di area tempat peristirahatan',
@@ -927,7 +917,7 @@ export const EXPERIENCES: Experience[] = [
     ],
     itinerary: [
       { time: '06:30 - 07:00', title: 'Penjemputan di Hotel', desc: 'Penjemputan di hotel dengan transportasi berbagi (share transport) menuju Pelabuhan Sanur.' },
-      { time: '07:30', title: 'Tiba di Pelabuhan Sanur & Registrasi', desc: 'Tiba dan pendaftaran di Pelabuhan Sanur, pengambilan boarding pass, dan asuransi penumpang.' },
+      { time: '07:30', title: 'Tiba di Pelabuhan Sanur & Registrasi', desc: 'Tiba dan pendaftaran di Pelabuhan Sanur, dan pengambilan boarding pass.' },
       { time: '08:00', title: 'Keberangkatan Speed Boat ke Nusa Penida', desc: 'Keberangkatan dari Pelabuhan Sanur menuju Nusa Penida menggunakan Speed Boat (~45 menit).' },
       { time: '09:00', title: 'Tiba di Nusa Penida & Tur Wisata Timur', desc: 'Tiba di Nusa Penida, bertemu pengemudi (island guide), dan mengunjungi Diamond Beach, Atuh Beach, Tree House & Thousand Island View, serta Teletubbies Hill. Makan siang disajikan di perjalanan.' },
       { time: '16:00', title: 'Perjalanan Kembali ke Sanur dengan Speed Boat', desc: 'Perjalanan kembali dari Nusa Penida ke Pelabuhan Sanur dengan Speed Boat.' },
@@ -1295,8 +1285,7 @@ export const EXPERIENCES: Experience[] = [
     exclusions: [
       'Pengeluaran pribadi untuk belanja di area istirahat',
       'Foto atau video profesional (dapat dibeli terpisah di lokasi)',
-      'Pengeluaran tambahan lainnya, souvenir, dan tip (tipping)',
-      'Asuransi tidak ditanggung (Insurance are not covered)'
+      'Pengeluaran tambahan lainnya, souvenir, dan tip (tipping)'
     ],
     itinerary: [
       { time: 'Rute Pendek (Pasar Agung)', title: 'Penjemputan 23:30 – 00:30 WITA | Start 01:45 WITA', desc: 'Tiba di start point (01:00 – 01:30 WITA), mulai mendaki 01:45 WITA menuju Puncak Selatan. Durasi trekking 6 – 8 jam (naik & turun).' },
@@ -1310,8 +1299,8 @@ export const EXPERIENCES: Experience[] = [
     id: 'bali-cycling-downhill-mountain-to-village',
     title: 'Bali Cycling Countryside Downhill From Mountain to Village',
     tagline: 'Kintamani Highland to Ubud • Bamboo Forest • Authentic Villages & Rice Fields • Downhill MTB Tour',
-    shortDesc: 'Bali Cycling Countryside Downhill gowes santai dari pegunungan Kintamani ke desa tradisional & persawahan dengan sarapan, makan siang & asuransi.',
-    longDesc: 'Bali Cycling Countryside Downhill From Mountain to Village menyusuri jalur sejuk Kintamani melintasi hutan bambu, pedesaan lokal otentik Bali, dan persawahan hijau. Termasuk sarapan pagi berlatar Danau Batur, makan siang di teras terbuka, perlengkapan sepeda lengkap, dan asuransi.',
+    shortDesc: 'Bali Cycling Countryside Downhill gowes santai dari pegunungan Kintamani ke desa tradisional & persawahan dengan sarapan dan makan siang.',
+    longDesc: 'Bali Cycling Countryside Downhill From Mountain to Village menyusuri jalur sejuk Kintamani melintasi hutan bambu, pedesaan lokal otentik Bali, dan persawahan hijau. Termasuk sarapan pagi berlatar Danau Batur, makan siang di teras terbuka, dan perlengkapan sepeda lengkap.',
     bgImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787326066/04b075c5-bd5c-4f15-a821-b389d514b95e.png',
     cardImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787326066/04b075c5-bd5c-4f15-a821-b389d514b95e.png',
     pricePerPerson: 20,
@@ -1324,7 +1313,7 @@ export const EXPERIENCES: Experience[] = [
       'Gowes santai downhill melintasi dataran tinggi Kintamani, hutan bambu, pedesaan lokal, dan area persawahan',
       'Pemandu sepeda profesional berbahasa Inggris & driver pengantar ramah',
       'Termasuk sarapan pagi dengan panorama Gunung/Danau Batur & makan siang di teras terbuka',
-      'Dilengkapi peralatan bersepeda lengkap, air minum kemasan, serta perlindungan asuransi'
+      'Dilengkapi peralatan bersepeda lengkap dan air minum kemasan'
     ],
     inclusions: [
       'Penjemputan & pengantaran privat ber-AC (Private Transport)',
@@ -1333,8 +1322,7 @@ export const EXPERIENCES: Experience[] = [
       'Pemandu sepeda profesional (Bahasa Inggris)',
       'Driver pengantar (Bahasa Inggris)',
       'Sarapan pagi & makan siang di teras terbuka',
-      'Air minum kemasan',
-      'Asuransi perlindungan kegiatan'
+      'Air minum kemasan'
     ],
     exclusions: [
       'Pengeluaran pribadi & belanja di tempat istirahat',
@@ -1381,8 +1369,7 @@ export const EXPERIENCES: Experience[] = [
       'Foto atau video profesional di lokasi',
       'Pengeluaran pribadi & konsumsi tambahan di jalan',
       'Cenderamata / Souvenir',
-      'Tip (tipping) untuk driver & pemandu',
-      'Asuransi perjalanan'
+      'Tip (tipping) untuk driver & pemandu'
     ],
     itinerary: [
       { time: '07:00 AM', title: 'Penjemputan di Hotel', desc: 'Penjemputan di lobby hotel Anda dengan armada transportasi pribadi ber-AC.' },

@@ -537,7 +537,7 @@ const PACKAGES_DATA: Record<string, PackagePreview> = {
       'Gowes santai downhill melintasi hutan bambu dan pedesaan lokal',
       'Pemandu sepeda profesional dan perlengkapan lengkap berstandar',
       'Termasuk sarapan dengan pemandangan Gunung Batur & makan siang',
-      'Perlindungan asuransi aktivitas dan penjemputan privat'
+      'Penjemputan privat'
     ]
   },
   'adventure-bali-sunrise-trekking-mount-batur': {
@@ -1889,7 +1889,7 @@ export default function DestinationDetailPage({ destinationName, onBack, onBookN
                     {(pkg.highlights && pkg.highlights.length > 0 ? pkg.highlights : [
                       language === 'id' ? 'Dipandu oleh tim pemandu profesional berpengalaman' : 'Led by experienced, licensed professional guides',
                       language === 'id' ? 'Dilengkapi dengan peralatan keselamatan berstandar internasional' : 'Complete international safety gear and clean vehicle',
-                      language === 'id' ? 'Termasuk asuransi perlindungan aktivitas dan air mineral' : 'Includes full activity insurance coverage and mineral water'
+                      language === 'id' ? 'Termasuk air mineral dingin selama perjalanan' : 'Includes cold mineral water throughout the trip'
                     ]).map((hl, i) => (
                       <div key={i} className="flex items-start gap-2 text-[10px] leading-tight text-neutral-300">
                         <Check size={11} className="text-gold-500 mt-0.5 flex-shrink-0" />

@@ -79,15 +79,15 @@ export default function Footer() {
           <ul className="space-y-3 text-xs md:text-sm text-gold-100/60 font-light">
             <li className="flex items-start space-x-2.5">
               <MapPin size={14} className="text-gold-400 mt-0.5 flex-shrink-0" />
-              <span>Jalan Raya Seminyak No. 14A, Kuta, Bali 80361, Indonesia</span>
+              <span>Bali Niki Tour In Front Of M-Mart Hotel Karti Area , Jl Kartika Plaza Kuta Bali</span>
             </li>
             <li className="flex items-center space-x-2.5">
               <Phone size={14} className="text-gold-400 flex-shrink-0" />
-              <span>+62 812-2565-7382</span>
+              <span>+62 813-3725-2651</span>
             </li>
             <li className="flex items-center space-x-2.5">
               <Mail size={14} className="text-gold-400 flex-shrink-0" />
-              <span>concierge@balinikitour.com</span>
+              <span>jayaputra040474@gmail.com</span>
             </li>
           </ul>
         </div>

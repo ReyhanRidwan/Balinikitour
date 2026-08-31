@@ -328,7 +328,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
       capacity: '1 Person',
       description: 'Pengarungan Sungai Ayung sepanjang 12 km dengan 29 titik jeram berdurasi sekitar 2,5 hingga 3 jam didampingi pemandu berpengalaman dan makan siang buffet lezat.',
       image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787063019/398e70aa-ea11-449f-a279-6ed8e832b74b.png',
-      highlights: ['Diskon spesial 77%', '12 km pengarungan (29 titik jeram)', 'Didampingi pemandu berpengalaman', 'Peralatan standar internasional & asuransi']
+      highlights: ['Diskon spesial 77%', '12 km pengarungan (29 titik jeram)', 'Didampingi pemandu berpengalaman', 'Peralatan standar internasional']
     },
     {
       id: 'bali-dewata-rafting',
@@ -344,7 +344,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
       capacity: '1 Person',
       description: 'Pengarungan Sungai Ayung sepanjang 12 km dengan 29 titik jeram berdurasi sekitar 2,5 hingga 3 jam di sungai bersama pemandu berpengalaman.',
       image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787063184/31bbe6f8-14e4-48f0-9bf8-8506d9091642.png',
-      highlights: ['Sensasi menerjang jeram sungai', '12 km pengarungan (29 titik jeram)', 'Didampingi pemandu berpengalaman', 'Peralatan standar internasional & asuransi']
+      highlights: ['Sensasi menerjang jeram sungai', '12 km pengarungan (29 titik jeram)', 'Didampingi pemandu berpengalaman', 'Peralatan standar internasional']
     }
   ];
 
@@ -617,13 +617,13 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
       location: 'Kuta, Legian, Seminyak, Canggu, Jimbaran, Nusa Dua, Sanur, Ubud',
       difficulty: 'Medium',
       capacity: '1 Person',
-      description: 'Bali Cycling Countryside Downhill From Mountain to Village menyusuri jalur sejuk Kintamani melintasi hutan bambu, pedesaan lokal otentik Bali, dan persawahan hijau. Termasuk sarapan pagi berlatar Danau Batur, makan siang di teras terbuka, perlengkapan sepeda lengkap, dan asuransi.',
+      description: 'Bali Cycling Countryside Downhill From Mountain to Village menyusuri jalur sejuk Kintamani melintasi hutan bambu, pedesaan lokal otentik Bali, dan persawahan hijau. Termasuk sarapan pagi berlatar Danau Batur, makan siang di teras terbuka, dan perlengkapan sepeda lengkap.',
       image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787326066/04b075c5-bd5c-4f15-a821-b389d514b95e.png',
       highlights: [
         'Gowes santai downhill melintasi dataran tinggi Kintamani, hutan bambu, pedesaan lokal, dan area persawahan',
         'Pemandu sepeda profesional berbahasa Inggris & driver pengantar ramah',
         'Termasuk sarapan pagi dengan panorama Gunung/Danau Batur & makan siang di teras terbuka',
-        'Dilengkapi peralatan bersepeda lengkap, air minum kemasan, serta perlindungan asuransi'
+        'Dilengkapi peralatan bersepeda lengkap dan air minum kemasan'
       ]
     },
     {
@@ -1660,7 +1660,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
                   <div>
                     <h4 className="font-bold text-sm mb-1 text-white">Fasilitas Lengkap All-In Termasuk</h4>
                     <p className="text-xs text-gold-100 leading-relaxed">
-                      Termasuk transportasi hotel ber-AC, tiket fast boat & atraksi wisata, makan siang/malam, dan asuransi.
+                      Termasuk transportasi hotel ber-AC, tiket fast boat & atraksi wisata, serta makan siang/malam.
                     </p>
                   </div>
                 </div>
@@ -1804,7 +1804,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
                   <div>
                     <h4 className="font-bold text-sm mb-1 text-white">Fasilitas Lengkap Termasuk</h4>
                     <p className="text-xs text-gold-100 leading-relaxed">
-                      Termasuk makan siang buffet lezat, kamar bilas shower air hangat, handuk bersih, dan asuransi kecelakaan.
+                      Termasuk makan siang buffet lezat, kamar bilas shower air hangat, dan handuk bersih.
                     </p>
                   </div>
                 </div>

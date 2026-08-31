@@ -130,8 +130,7 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
       'Makan siang prasmanan (buffet lunch)',
       'Peralatan rafting berstandar keselamatan internasional',
       'Pemandu rafting profesional lokal',
-      'Handuk (disarankan tetap membawa sendiri), fasilitas kamar mandi, dan toilet',
-      'Perlindungan asuransi'
+      'Handuk (disarankan tetap membawa sendiri), fasilitas kamar mandi, dan toilet'
     ],
     exclusions: [
       'Pengeluaran pribadi untuk belanja di titik peristirahatan',
@@ -208,8 +207,7 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
       'Peralatan ATV dan Rafting yang telah disetujui standar kesafetyannya',
       'Pemandu rafting profesional lokal',
       'Handuk (disarankan membawa handuk sendiri)',
-      'Fasilitas kamar mandi (shower) dan toilet',
-      'Perlindungan asuransi'
+      'Fasilitas kamar mandi (shower) dan toilet'
     ],
     exclusions: [
       'Uang ekstra untuk pembelian pribadi di area tempat istirahat',
@@ -292,8 +290,7 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
       'Entrance ticket fee to Mount Batur area and government of Bali',
       'One bottle mineral water each person during your Jeep Tour',
       'Hot drink (Tea, Coffee or Hot Chocolate)',
-      '4x4 Classic Jeep Tour & Professional Jeep Driver',
-      'Insurance coverage'
+      '4x4 Classic Jeep Tour & Professional Jeep Driver'
     ],
     exclusions: [
       'Extra Money for any purchasing on the rest spot area',
@@ -515,8 +512,7 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
       'Peralatan arung jeram berstandar keselamatan',
       'Pemandu arung jeram profesional',
       'Handuk (disarankan tetap membawa milik pribadi)',
-      'Fasilitas kamar mandi, shower, dan toilet',
-      'Perlindungan asuransi'
+      'Fasilitas kamar mandi, shower, dan toilet'
     ],
     exclusions: [
       'Uang pribadi untuk pembelian di area tempat peristirahatan',
@@ -588,8 +584,7 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
       'Peralatan arung jeram berstandar keselamatan',
       'Pemandu arung jeram profesional khas Bali',
       'Handuk (disarankan tetap membawa milik pribadi)',
-      'Fasilitas shower dan toilet',
-      'Perlindungan asuransi'
+      'Fasilitas shower dan toilet'
     ],
     exclusions: [
       'Uang pribadi untuk pembelian di area tempat peristirahatan',
@@ -713,7 +708,7 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
       {
         time: '07:30',
         title: 'Tiba di Pelabuhan Sanur & Registrasi',
-        description: 'Tiba dan pendaftaran di Pelabuhan Sanur, pengambilan boarding pass, dan asuransi penumpang.'
+        description: 'Tiba dan pendaftaran di Pelabuhan Sanur, dan pengambilan boarding pass.'
       },
       {
         time: '08:00',
@@ -773,10 +768,10 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     operationalLocation: 'Pelabuhan Sanur & Nusa Penida Barat (Angel’s Billabong, Broken Beach, Kelingking Beach, Crystal Bay)',
     pickupAreas: ['Kuta', 'Legian', 'Seminyak', 'Canggu', 'Jimbaran', 'Nusa Dua', 'Sanur', 'Ubud'],
     organizerContact: {
-      name: 'BALIKU Tour Services',
-      phone: '+6282340529789',
-      email: 'info@balikutour.com',
-      address: 'Jl. Kartika Plaza (Depan Karthi Hotel), Kuta, Badung, Bali – Indonesia'
+      name: 'Bali Niki Tour',
+      phone: '+62 813-3725-2651',
+      email: 'jayaputra040474@gmail.com',
+      address: 'Bali Niki Tour In Front Of M-Mart Hotel Karti Area , Jl Kartika Plaza Kuta Bali'
     },
     image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787237616/1f45e3b9-9f61-4f5f-919e-dce4609140fd.png',
     highlights: [
@@ -855,10 +850,10 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     operationalLocation: 'Karangasem & Bangli (Pura Lempuyang, Tirta Gangga Water Palace, Tukad Cepung Waterfall)',
     pickupAreas: ['Kuta', 'Legian', 'Seminyak', 'Canggu', 'Jimbaran', 'Nusa Dua', 'Sanur', 'Ubud'],
     organizerContact: {
-      name: 'BALIKU Tour & Nature Trails',
-      phone: '+6282340529789',
-      email: 'info@balikutour.com',
-      address: 'Jl. Kartika Plaza (Depan Karthi Hotel), Kuta, Badung, Bali – Indonesia'
+      name: 'Bali Niki Tour',
+      phone: '+62 813-3725-2651',
+      email: 'jayaputra040474@gmail.com',
+      address: 'Bali Niki Tour In Front Of M-Mart Hotel Karti Area , Jl Kartika Plaza Kuta Bali'
     },
     image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787322992/2eed1ea0-3f13-478d-9956-337a8ebdbf6e.png',
     highlights: [
@@ -930,10 +925,10 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     operationalLocation: 'Gianyar & Ubud (Air Terjun Tegenungan, Ubud Monkey Forest Sanctuary, Air Terjun Kanto Lampo)',
     pickupAreas: ['Kuta', 'Legian', 'Seminyak', 'Canggu', 'Jimbaran', 'Nusa Dua', 'Sanur', 'Ubud'],
     organizerContact: {
-      name: 'BALIKU Tour & Nature Trails',
-      phone: '+6282340529789',
-      email: 'info@balikutour.com',
-      address: 'Jl. Kartika Plaza (Depan Karthi Hotel), Kuta, Badung, Bali – Indonesia'
+      name: 'Bali Niki Tour',
+      phone: '+62 813-3725-2651',
+      email: 'jayaputra040474@gmail.com',
+      address: 'Bali Niki Tour In Front Of M-Mart Hotel Karti Area , Jl Kartika Plaza Kuta Bali'
     },
     image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787323636/377959ab-3a0a-4afe-a294-930a79196a33.png',
     highlights: [
@@ -1005,10 +1000,10 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     operationalLocation: 'Bedugul & Ubud (Bali Swing Bongkasa, Air Terjun Nungnung, Pura Ulun Danu Beratan, Air Terjun Leke Leke)',
     pickupAreas: ['Kuta', 'Legian', 'Seminyak', 'Canggu', 'Jimbaran', 'Nusa Dua', 'Sanur', 'Ubud'],
     organizerContact: {
-      name: 'BALIKU Tour & Nature Trails',
-      phone: '+6282340529789',
-      email: 'info@balikutour.com',
-      address: 'Jl. Kartika Plaza (Depan Karthi Hotel), Kuta, Badung, Bali – Indonesia'
+      name: 'Bali Niki Tour',
+      phone: '+62 813-3725-2651',
+      email: 'jayaputra040474@gmail.com',
+      address: 'Bali Niki Tour In Front Of M-Mart Hotel Karti Area , Jl Kartika Plaza Kuta Bali'
     },
     image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787324362/9d6f0219-6dfc-4f28-9234-4e307a58f316.png',
     highlights: [
@@ -1085,10 +1080,10 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     operationalLocation: 'Batubulan, Celuk, Sukawati, Tegalalang & Ubud (Tari Barong, Desa Seni, Air Terjun Tegenungan, Sawah Tegalalang, Monkey Forest)',
     pickupAreas: ['Kuta', 'Legian', 'Seminyak', 'Canggu', 'Jimbaran', 'Nusa Dua', 'Sanur', 'Ubud'],
     organizerContact: {
-      name: 'BALIKU Tour & Nature Trails',
-      phone: '+6282340529789',
-      email: 'info@balikutour.com',
-      address: 'Jl. Kartika Plaza (Depan Karthi Hotel), Kuta, Badung, Bali – Indonesia'
+      name: 'Bali Niki Tour',
+      phone: '+62 813-3725-2651',
+      email: 'jayaputra040474@gmail.com',
+      address: 'Bali Niki Tour In Front Of M-Mart Hotel Karti Area , Jl Kartika Plaza Kuta Bali'
     },
     image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787324453/fdf23903-3780-458b-a52f-e8402aafd246.png',
     highlights: [
@@ -1169,10 +1164,10 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     operationalLocation: 'Batubulan, Celuk, Tampaksiring (Pura Tirta Empul), Kintamani Highland & Ubud Monkey Forest Sanctuary',
     pickupAreas: ['Kuta', 'Legian', 'Seminyak', 'Canggu', 'Jimbaran', 'Nusa Dua', 'Sanur', 'Ubud'],
     organizerContact: {
-      name: 'BALIKU Tour & Nature Trails',
-      phone: '+6282340529789',
-      email: 'info@balikutour.com',
-      address: 'Jl. Kartika Plaza (Depan Karthi Hotel), Kuta, Badung, Bali – Indonesia'
+      name: 'Bali Niki Tour',
+      phone: '+62 813-3725-2651',
+      email: 'jayaputra040474@gmail.com',
+      address: 'Bali Niki Tour In Front Of M-Mart Hotel Karti Area , Jl Kartika Plaza Kuta Bali'
     },
     image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787377999/40079c3b-3b6b-4769-8cde-90b8e9aa1278.png',
     highlights: [
@@ -1256,10 +1251,10 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     operationalLocation: 'Mengwi (Pura Taman Ayun), Bedugul (Danau & Pura Ulun Danu Beratan, Handara Gate), & Tabanan (Pura Tanah Lot)',
     pickupAreas: ['Kuta', 'Legian', 'Seminyak', 'Canggu', 'Jimbaran', 'Nusa Dua', 'Sanur', 'Ubud'],
     organizerContact: {
-      name: 'BALIKU Tour & Nature Trails',
-      phone: '+6282340529789',
-      email: 'info@balikutour.com',
-      address: 'Jl. Kartika Plaza (Depan Karthi Hotel), Kuta, Badung, Bali – Indonesia'
+      name: 'Bali Niki Tour',
+      phone: '+62 813-3725-2651',
+      email: 'jayaputra040474@gmail.com',
+      address: 'Bali Niki Tour In Front Of M-Mart Hotel Karti Area , Jl Kartika Plaza Kuta Bali'
     },
     image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787378235/90a03b5d-8896-473b-9309-1095503d30ff.png',
     highlights: [
@@ -1337,10 +1332,10 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     operationalLocation: 'Bedugul, Buleleng & Tabanan (Candi Ulun Danu Beratan, Handara Gate, Wanagiri Hidden Hills, Air Terjun Leke Leke, Candi Tanah Lot)',
     pickupAreas: ['Kuta', 'Legian', 'Seminyak', 'Canggu', 'Jimbaran', 'Nusa Dua', 'Sanur', 'Ubud'],
     organizerContact: {
-      name: 'BALIKU Tour & Nature Trails',
-      phone: '+6282340529789',
-      email: 'info@balikutour.com',
-      address: 'Jl. Kartika Plaza (Depan Karthi Hotel), Kuta, Badung, Bali – Indonesia'
+      name: 'Bali Niki Tour',
+      phone: '+62 813-3725-2651',
+      email: 'jayaputra040474@gmail.com',
+      address: 'Bali Niki Tour In Front Of M-Mart Hotel Karti Area , Jl Kartika Plaza Kuta Bali'
     },
     image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787324702/34b12cec-98fb-4209-ae84-305b09b6324c.png',
     highlights: [
@@ -1422,10 +1417,10 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     operationalLocation: 'Kintamani, Bangli (Puncak Gunung Batur 1.717 mdpl, Kawah Utama, Perkebunan Kopi)',
     pickupAreas: ['Kuta', 'Legian', 'Seminyak', 'Canggu', 'Jimbaran', 'Nusa Dua', 'Sanur', 'Ubud'],
     organizerContact: {
-      name: 'BALIKU Tour & Nature Trails',
-      phone: '+6282340529789',
-      email: 'info@balikutour.com',
-      address: 'Jl. Kartika Plaza (Depan Karthi Hotel), Kuta, Badung, Bali – Indonesia'
+      name: 'Bali Niki Tour',
+      phone: '+62 813-3725-2651',
+      email: 'jayaputra040474@gmail.com',
+      address: 'Bali Niki Tour In Front Of M-Mart Hotel Karti Area , Jl Kartika Plaza Kuta Bali'
     },
     image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787052296/32172e3b-f147-4fcf-a7c0-abfe6c3d1997.png',
     highlights: [
@@ -1513,10 +1508,10 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     operationalLocation: 'Kintamani, Bangli (Puncak Gunung Batur 1.717 mdpl, Batur Natural Hot Spring, Restoran Kaldera)',
     pickupAreas: ['Kuta', 'Legian', 'Seminyak', 'Canggu', 'Jimbaran', 'Nusa Dua', 'Sanur', 'Ubud'],
     organizerContact: {
-      name: 'BALIKU Tour & Nature Trails',
-      phone: '+6282340529789',
-      email: 'info@balikutour.com',
-      address: 'Jl. Kartika Plaza (Depan Karthi Hotel), Kuta, Badung, Bali – Indonesia'
+      name: 'Bali Niki Tour',
+      phone: '+62 813-3725-2651',
+      email: 'jayaputra040474@gmail.com',
+      address: 'Bali Niki Tour In Front Of M-Mart Hotel Karti Area , Jl Kartika Plaza Kuta Bali'
     },
     image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787325801/600b4aa7-95a1-4f0e-b5b1-88158d4364ed.png',
     highlights: [
@@ -1606,10 +1601,10 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     operationalLocation: 'Karangasem (Puncak Gunung Agung 3.033 mdpl via Pasar Agung / Besakih)',
     pickupAreas: ['Kuta', 'Legian', 'Seminyak', 'Canggu', 'Jimbaran', 'Nusa Dua', 'Sanur', 'Ubud', 'Padang Bai', 'Candidasa', 'Amed'],
     organizerContact: {
-      name: 'BALIKU Tour & Nature Trails',
-      phone: '+6282340529789',
-      email: 'info@balikutour.com',
-      address: 'Jl. Kartika Plaza (Depan Karthi Hotel), Kuta, Badung, Bali – Indonesia'
+      name: 'Bali Niki Tour',
+      phone: '+62 813-3725-2651',
+      email: 'jayaputra040474@gmail.com',
+      address: 'Bali Niki Tour In Front Of M-Mart Hotel Karti Area , Jl Kartika Plaza Kuta Bali'
     },
     image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787325945/07eb4a26-cfc3-4b69-b2bd-be2d633a43c4.png',
     highlights: [
@@ -1684,17 +1679,17 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     operationalLocation: 'Kintamani hingga Desa Tradisional & Persawahan Ubud, Gianyar',
     pickupAreas: ['Kuta', 'Legian', 'Seminyak', 'Canggu', 'Jimbaran', 'Nusa Dua', 'Sanur', 'Ubud'],
     organizerContact: {
-      name: 'BALIKU Tour & Nature Trails',
-      phone: '+6282340529789',
-      email: 'info@balikutour.com',
-      address: 'Jl. Kartika Plaza (Depan Karthi Hotel), Kuta, Badung, Bali – Indonesia'
+      name: 'Bali Niki Tour',
+      phone: '+62 813-3725-2651',
+      email: 'jayaputra040474@gmail.com',
+      address: 'Bali Niki Tour In Front Of M-Mart Hotel Karti Area , Jl Kartika Plaza Kuta Bali'
     },
     image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787326066/04b075c5-bd5c-4f15-a821-b389d514b95e.png',
     highlights: [
       'Gowes santai downhill melintasi dataran tinggi Kintamani, hutan bambu, pedesaan lokal, dan area persawahan',
       'Pemandu sepeda profesional berbahasa Inggris & driver pengantar ramah',
       'Termasuk sarapan pagi dengan panorama Gunung/Danau Batur & makan siang di teras terbuka',
-      'Dilengkapi peralatan bersepeda lengkap, air minum kemasan, serta perlindungan asuransi'
+      'Dilengkapi peralatan bersepeda lengkap dan air minum kemasan'
     ],
     itinerary: [
       {
@@ -1763,10 +1758,10 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     operationalLocation: 'Singaraja, Buleleng (Waterfall Sekumpul, Waterfall Fiji, Lemukih Waterslide, Sawah Lemukih)',
     pickupAreas: ['Kuta', 'Legian', 'Seminyak', 'Canggu', 'Jimbaran', 'Nusa Dua', 'Sanur', 'Ubud'],
     organizerContact: {
-      name: 'BALIKU Tour & Nature Trails',
-      phone: '+6282340529789',
-      email: 'info@balikutour.com',
-      address: 'Jl. Kartika Plaza (Depan Karthi Hotel), Kuta, Badung, Bali – Indonesia'
+      name: 'Bali Niki Tour',
+      phone: '+62 813-3725-2651',
+      email: 'jayaputra040474@gmail.com',
+      address: 'Bali Niki Tour In Front Of M-Mart Hotel Karti Area , Jl Kartika Plaza Kuta Bali'
     },
     image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787326124/858fd91f-1ff7-428d-beeb-c59f2cdc534b.png',
     highlights: [
@@ -1873,7 +1868,6 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     ],
     "exclusions": [
         "International and domestic airfare",
-        "Travel and medical insurance",
         "Services not mentioned or promised in the package",
         "Professional photography and video services, available for purchase on the spot",
         "Emergency and personal expenses, including shopping, flight charter, doctor on call, bar bills, telephone, laundry, and other personal expenses",
@@ -2008,7 +2002,6 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     ],
     "exclusions": [
         "International and Domestic Airfare",
-        "Your travel and medical insurance",
         "Services not mentioned or not promised",
         "Photo or Video by professional photography available to purchase on the spot",
         "Emergency and Personal Expenses such as shopping, flight charter, doctor on call, bar bills, telephone, laundry, etc",
@@ -2074,7 +2067,6 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     ],
     "exclusions": [
         "International and Domestic Airfare",
-        "Your travel and medical insurance",
         "Services not mentioned or not promised",
         "Photo or Video by professional photography available to purchase on the spot",
         "Emergency and Personal Expenses such as shopping, flight charter, doctor on call, bar bills, telephone, laundry, etc",
@@ -2127,7 +2119,6 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
         '30 menit terbang Tandem Paragliding',
         'Air mineral atau minuman ringan',
         'Perlengkapan keselamatan: Helm, harness, dan glider (memenuhi standar FAI dan Eropa)',
-        'Perlindungan asuransi',
         'Peminjaman kamera GoPro HERO9 Series untuk merekam penerbangan',
         'Fasilitas lokasi: Wi-Fi, stopkontak pengisian daya, loker, toilet, ruang tunggu/lobi yang nyaman, serta sepatu olahraga jika tidak membawa sepatu kets',
         'Kotak P3K dan obat-obatan (jika diperlukan)'
@@ -2337,8 +2328,8 @@ export default function RaftingDetailPage({ packageId, onBack, onBookNow }: Raft
               <div className="p-3.5 bg-neutral-900/80 rounded-xl border border-neutral-700/50 flex items-center gap-3">
                 <ShieldCheck size={18} className="text-gold-500 flex-shrink-0" />
                 <div>
-                  <span className="text-[11px] text-neutral-400 block font-mono">{language === 'id' ? 'ASURANSI' : 'INSURANCE'}</span>
-                  <span className="font-bold text-white">{language === 'id' ? 'Termasuk' : 'Included'}</span>
+                  <span className="text-[11px] text-neutral-400 block font-mono">{language === 'id' ? 'KEAMANAN' : 'SAFETY'}</span>
+                  <span className="font-bold text-white">{language === 'id' ? 'Terjamin' : 'Guaranteed'}</span>
                 </div>
               </div>
             </div>
