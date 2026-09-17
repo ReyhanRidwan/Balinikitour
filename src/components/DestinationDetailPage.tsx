@@ -43,7 +43,7 @@ const PACKAGES_DATA: Record<string, PackagePreview> = {
   'gate-of-heaven-water-palace-waterfall': {
     id: 'gate-of-heaven-water-palace-waterfall',
     title: 'Gate Of Heaven Water Palace Hidden Gems Waterfall',
-    image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787322992/2eed1ea0-3f13-478d-9956-337a8ebdbf6e.png',
+    image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635759/bcadd418-6d1e-45ed-bb5d-71979c5c6da5.png',
     badge: '66% Off',
     categoryTag: 'Full Day Tour',
     originalPrice: 88,
@@ -262,7 +262,7 @@ const PACKAGES_DATA: Record<string, PackagePreview> = {
   'water-sport-beaches-uluwatu-dinner': {
     id: 'water-sport-beaches-uluwatu-dinner',
     title: 'Water Sport – Beaches – Uluwatu Temple – Beach Dinner',
-    image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787315862/3f1a2906-9dcd-4496-b6a1-2b19ae0231b1.png',
+    image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635616/c9781194-47fa-46da-ab2f-f11870ab6cc8.png',
     badge: '66% Off',
     categoryTag: 'Full Day Tour',
     originalPrice: 95,

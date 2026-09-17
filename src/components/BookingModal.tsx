@@ -67,7 +67,7 @@ export const ALL_BOOKABLE_PACKAGES: BookablePackage[] = [
     title: 'Gate of Heaven, Tirta Gangga Water Palace & Waterfall',
     category: 'Destinasi & Day Tours',
     pricePerPerson: 55,
-    cardImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787322992/2eed1ea0-3f13-478d-9956-337a8ebdbf6e.png',
+    cardImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635759/bcadd418-6d1e-45ed-bb5d-71979c5c6da5.png',
     location: 'Karangasem, East Bali'
   },
   {
@@ -139,7 +139,7 @@ export const ALL_BOOKABLE_PACKAGES: BookablePackage[] = [
     title: 'Tanjung Benoa Watersport, Beaches & Uluwatu Sunset Dinner',
     category: 'Destinasi & Day Tours',
     pricePerPerson: 60,
-    cardImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787315862/3f1a2906-9dcd-4496-b6a1-2b19ae0231b1.png',
+    cardImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635616/c9781194-47fa-46da-ab2f-f11870ab6cc8.png',
     location: 'Uluwatu & Jimbaran'
   },
   {
@@ -888,12 +888,12 @@ Halo Concierge Bali Niki Tour, saya ingin konfirmasi pemesanan paket tur di atas
                   {/* Selected Item Preview */}
                   <div className="flex items-center space-x-3 mb-5 bg-neutral-950 p-3 border border-gold-900/20 rounded-lg">
                     <img
-                      src={getOptimizedCloudinaryUrl(currentExp.cardImage || 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787322992/2eed1ea0-3f13-478d-9956-337a8ebdbf6e.png', { width: 200, quality: 'auto', format: 'auto' })}
+                      src={getOptimizedCloudinaryUrl(currentExp.cardImage || 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635759/bcadd418-6d1e-45ed-bb5d-71979c5c6da5.png', { width: 200, quality: 'auto', format: 'auto' })}
                       alt={currentExp.title}
                       loading="lazy"
                       referrerPolicy="no-referrer"
                       onError={(e) => {
-                        (e.target as HTMLImageElement).src = 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787322992/2eed1ea0-3f13-478d-9956-337a8ebdbf6e.png';
+                        (e.target as HTMLImageElement).src = 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635759/bcadd418-6d1e-45ed-bb5d-71979c5c6da5.png';
                       }}
                       className="w-14 h-16 object-cover rounded-md border border-gold-400/20 flex-shrink-0"
                     />

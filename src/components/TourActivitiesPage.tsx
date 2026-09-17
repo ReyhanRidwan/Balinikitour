@@ -111,7 +111,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
       difficulty: 'Easy',
       capacity: '1 Person',
       description: 'playing some water activities at Tanjung Benoa beach as like Banana Boat ( complimentary ), Jet Ski, Parasailing, visiting stunning southern beaches, magnificent Uluwatu cliff temple sunset, and romantic Jimbaran seafood beach dinner.',
-      image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787315862/3f1a2906-9dcd-4496-b6a1-2b19ae0231b1.png',
+      image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635616/c9781194-47fa-46da-ab2f-f11870ab6cc8.png',
       highlights: [
         'Aktivitas Banana Boat gratis di Pantai Tanjung Benoa',
         'Jelajah pantai pasir putih eksotis Nusa Dua & Padang Padang',
@@ -137,7 +137,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
       difficulty: 'Easy',
       capacity: '1 Person',
       description: 'playing some water activities at Tanjung Benoa beach as like Banana Boat ( complimentary ), Jet Ski, Parasailing, visiting stunning southern beaches, magnificent Uluwatu cliff temple sunset, and romantic Jimbaran seafood beach dinner.',
-      image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787315862/3f1a2906-9dcd-4496-b6a1-2b19ae0231b1.png',
+      image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635616/c9781194-47fa-46da-ab2f-f11870ab6cc8.png',
       highlights: [
         'Aktivitas Banana Boat gratis di Pantai Tanjung Benoa',
         'Jelajah pantai pasir putih eksotis Nusa Dua & Padang Padang',
@@ -205,7 +205,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
       difficulty: 'Easy',
       capacity: '1 Person',
       description: 'playing some water activities at Tanjung Benoa beach as like Banana Boat ( complimentary ), Jet Ski, Parasailing, visiting stunning southern beaches, magnificent Uluwatu cliff temple sunset, and romantic Jimbaran seafood beach dinner.',
-      image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787315862/3f1a2906-9dcd-4496-b6a1-2b19ae0231b1.png',
+      image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635616/c9781194-47fa-46da-ab2f-f11870ab6cc8.png',
       highlights: [
         'Aktivitas Banana Boat gratis di Pantai Tanjung Benoa',
         'Jelajah pantai pasir putih eksotis Nusa Dua & Padang Padang',
@@ -450,7 +450,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
       difficulty: 'Medium',
       capacity: '1 Person',
       description: 'Gate Of Heaven Water Palace Hidden Gems Waterfall a famous day trip for instagramable or selfies spot starting to visit Lempuyang Temple, also known as the Gate of Heaven with Mount Agung backdrop, Tirta Gangga Water Palace, and hidden gems waterfalls.',
-      image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787322992/2eed1ea0-3f13-478d-9956-337a8ebdbf6e.png',
+      image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635759/bcadd418-6d1e-45ed-bb5d-71979c5c6da5.png',
       highlights: [
         'Spot foto ikonik Gerbang Surga (Gate of Heaven) Candi Lempuyang berlatar Gunung Agung',
         'Menjelajahi istana air bersejarah Tirta Gangga karya King of Karangasem dengan taman asri & kolam ikan koi',
@@ -751,7 +751,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
       difficulty: 'Easy',
       capacity: '1 Person',
       description: 'Water Sport – Beaches – Uluwatu Temple – Beach Dinner menikmati wahana olahraga air di Tanjung Benoa (Banana Boat gratis), eksplorasi pantai eksotis Padang Padang, sunset magis Pura Luhur Uluwatu, dan santap malam romantis seafood di Pantai Jimbaran.',
-      image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787315862/3f1a2906-9dcd-4496-b6a1-2b19ae0231b1.png',
+      image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635616/c9781194-47fa-46da-ab2f-f11870ab6cc8.png',
       highlights: [
         'Aktivitas Banana Boat gratis di Pantai Tanjung Benoa & watersport seru',
         'Jelajah pantai pasir putih eksotis Padang Padang dengan tebing karang unik',
@@ -814,7 +814,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
       difficulty: 'Medium',
       capacity: '1 Person',
       description: 'Gate Of Heaven Water Palace Hidden Gems Waterfall a famous day trip for instagramable or selfies spot starting to visit Lempuyang Temple, also known as the Gate of Heaven with Mount Agung backdrop, Tirta Gangga Water Palace, and hidden gems waterfalls.',
-      image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787322992/2eed1ea0-3f13-478d-9956-337a8ebdbf6e.png',
+      image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635759/bcadd418-6d1e-45ed-bb5d-71979c5c6da5.png',
       highlights: [
         'Spot foto ikonik Gerbang Surga (Gate of Heaven) Candi Lempuyang berlatar Gunung Agung',
         'Menjelajahi istana air bersejarah Tirta Gangga karya King of Karangasem dengan taman asri & kolam ikan koi',
@@ -1208,7 +1208,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
       difficulty: 'Easy',
       capacity: '1 Person',
       description: 'playing some water activities at Tanjung Benoa beach as like Banana Boat ( complimentary ), Jet Ski, Parasailing, visiting stunning southern beaches, magnificent Uluwatu cliff temple sunset, and romantic Jimbaran seafood beach dinner.',
-      image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787315862/3f1a2906-9dcd-4496-b6a1-2b19ae0231b1.png',
+      image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635616/c9781194-47fa-46da-ab2f-f11870ab6cc8.png',
       highlights: [
         'Aktivitas Banana Boat gratis di Pantai Tanjung Benoa',
         'Jelajah pantai pasir putih eksotis Nusa Dua & Padang Padang',

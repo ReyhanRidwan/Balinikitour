@@ -243,7 +243,7 @@ export const TOUR_TRANSLATIONS: Record<string, Partial<Record<Language, Localize
   // 8. water-sport-beaches-uluwatu-dinner
   'water-sport-beaches-uluwatu-dinner': {
     en: {
-      title: 'Water Sports, South Beaches, Uluwatu Sunset & Seafood Dinner',
+      title: 'Water Sport – Beaches – Uluwatu Temple – Beach Dinner',
       tagline: 'Tanjung Benoa Watersports • Padang Padang Beach • Uluwatu Cliff Temple • Jimbaran Seafood Dinner',
       shortDesc: 'The quintessential South Bali day: thrilling water sports, surfing beach, cliffside Uluwatu temple sunset, and candlelight seafood dinner.',
       longDesc: 'Experience the ultimate coastal highlights of South Bali. Start with exhilarating water activities at Tanjung Benoa (including complimentary banana boat ride), relax at the secluded cove of Padang Padang Beach, visit Uluwatu Temple perched 70 meters above crashing waves, and conclude with a romantic grilled seafood feast on Jimbaran Beach.',

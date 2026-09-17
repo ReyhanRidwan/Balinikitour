@@ -48,7 +48,7 @@ export default function BestSellersSection({ onSelectPackage }: BestSellersSecti
         ? 'Olahraga Air, Pantai Eksotis, Pura Uluwatu & Makan Malam Tepi Pantai'
         : 'Water Sports, Beaches, Uluwatu Temple & Beachside Dinner',
       duration: language === 'id' ? '8 Jam' : '8 Hours',
-      image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787315862/3f1a2906-9dcd-4496-b6a1-2b19ae0231b1.png',
+      image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635616/c9781194-47fa-46da-ab2f-f11870ab6cc8.png',
     },
     {
       id: 'amazing-waterfall-monkey-forest',

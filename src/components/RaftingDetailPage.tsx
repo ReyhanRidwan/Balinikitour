@@ -616,7 +616,7 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
     transportOption: 'Transportasi pribadi ber-AC + Bahan bakar & Biaya parkir',
     operationalLocation: 'Tanjung Benoa, Pantai Padang Padang, Pura Uluwatu & Teluk Jimbaran, Bali',
     pickupAreas: ['Kuta', 'Legian', 'Seminyak', 'Canggu', 'Jimbaran', 'Nusa Dua', 'Sanur', 'Ubud'],
-    image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787315862/3f1a2906-9dcd-4496-b6a1-2b19ae0231b1.png',
+    image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635616/c9781194-47fa-46da-ab2f-f11870ab6cc8.png',
     highlights: [
       'Menikmati aktivitas olahraga air (water sports) di Pantai Tanjung Benoa dengan gratis Banana Boat',
       'Mengeksplorasi Pantai Padang Padang yang terkenal dengan tebing batu dan tangga unik',
@@ -855,7 +855,7 @@ const PACKAGE_DETAILS_DATA: Record<string, PackageDetailData> = {
       email: 'jayaputra040474@gmail.com',
       address: 'Bali Niki Tour In Front Of M-Mart Hotel Karti Area , Jl Kartika Plaza Kuta Bali'
     },
-    image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787322992/2eed1ea0-3f13-478d-9956-337a8ebdbf6e.png',
+    image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635759/bcadd418-6d1e-45ed-bb5d-71979c5c6da5.png',
     highlights: [
       'Spot foto ikonik Gerbang Surga (Gate of Heaven) Candi Lempuyang berlatar Gunung Agung',
       'Menjelajahi istana air bersejarah Tirta Gangga karya King of Karangasem dengan taman asri & kolam ikan koi',

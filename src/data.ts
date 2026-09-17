@@ -846,8 +846,8 @@ export const EXPERIENCES: Experience[] = [
     tagline: 'Tanjung Benoa Watersport • Pantai Padang Padang • Pura Luhur Uluwatu • Jimbaran Seafood Dinner',
     shortDesc: 'Aktivitas olahraga air di Tanjung Benoa (Banana Boat complimentary), Pantai Padang Padang, sunset Tari Kecak Pura Uluwatu, dan seafood dinner Teluk Jimbaran.',
     longDesc: 'Nikmati kombinasi petualangan bahari dan wisata budaya romantis di pesisir selatan Bali. Menikmati aktivitas olahraga air di Pantai Tanjung Benoa (Termasuk gratis Banana Boat), mengeksplorasi keindahan Pantai Padang Padang, mengunjungi Pura Luhur Uluwatu dengan Tari Kecak sunset, dan ditutup dengan santap malam boga laut (seafood dinner) di tepi pantai Teluk Jimbaran.',
-    bgImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787315862/3f1a2906-9dcd-4496-b6a1-2b19ae0231b1.png',
-    cardImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787315862/3f1a2906-9dcd-4496-b6a1-2b19ae0231b1.png',
+    bgImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635616/c9781194-47fa-46da-ab2f-f11870ab6cc8.png',
+    cardImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635616/c9781194-47fa-46da-ab2f-f11870ab6cc8.png',
     pricePerPerson: 32,
     duration: '8 Hours',
     location: 'Jimbaran and Nusa Dua',
@@ -973,8 +973,8 @@ export const EXPERIENCES: Experience[] = [
     tagline: 'Gate Of Heaven • Lempuyang Temple • Tirta Gangga Water Palace • Hidden Gems Waterfall • Candidasa & Amed',
     shortDesc: 'Gate Of Heaven Water Palace Hidden Gems Waterfall day trip untuk spot instagramable mengunjungi Pura Lempuyang, Tirta Gangga & air terjun tersembunyi.',
     longDesc: 'Gate Of Heaven Water Palace Hidden Gems Waterfall a famous day trip for instagramable or selfies spot starting to visit Lempuyang Temple, also known as the Gate of Heaven with Mount Agung backdrop, Tirta Gangga Water Palace, and hidden gems waterfalls.',
-    bgImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787322992/2eed1ea0-3f13-478d-9956-337a8ebdbf6e.png',
-    cardImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787322992/2eed1ea0-3f13-478d-9956-337a8ebdbf6e.png',
+    bgImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635759/bcadd418-6d1e-45ed-bb5d-71979c5c6da5.png',
+    cardImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635759/bcadd418-6d1e-45ed-bb5d-71979c5c6da5.png',
     pricePerPerson: 30,
     duration: '10 Hours',
     location: 'Candidasa and Amed',
@@ -1479,7 +1479,7 @@ export const GALLERY_PHOTOS = [
     location: 'Nusa Penida Island, Bali'
   },
   {
-    url: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787322992/2eed1ea0-3f13-478d-9956-337a8ebdbf6e.png',
+    url: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635759/bcadd418-6d1e-45ed-bb5d-71979c5c6da5.png',
     category: 'destination',
     title: 'Pura Lempuyang Gate of Heaven & Tirta Gangga',
     location: 'Karangasem, Bali'
@@ -1503,7 +1503,7 @@ export const GALLERY_PHOTOS = [
     location: 'Abiansemal, Badung'
   },
   {
-    url: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787315862/3f1a2906-9dcd-4496-b6a1-2b19ae0231b1.png',
+    url: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1789635616/c9781194-47fa-46da-ab2f-f11870ab6cc8.png',
     category: 'destination',
     title: 'Uluwatu Sunset Temple & Jimbaran Beach',
     location: 'Uluwatu, South Bali'
