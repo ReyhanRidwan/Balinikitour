@@ -1127,10 +1127,10 @@ export const EXPERIENCES: Experience[] = [
   },
   {
     id: 'explore-iconic-culture-heritage-twin-lake',
-    title: 'Explore Iconic Shot of Culture Heritage Hidden Gems and Twin Lake',
+    title: 'Bali Swing, Hidden Waterfall & Tanah Lot Sunset Tour',
     tagline: 'Ulun Danu Beratan • Handara Gate • Wanagiri Hidden Hills • Leke Leke Waterfall • Tanah Lot Sunset',
-    shortDesc: 'Explore Iconic Shot of Culture Heritage Hidden Gems and Twin Lake mengunjungi Candi Ulun Danu Beratan, Handara Gate, Twin Lake Wanagiri, Air Terjun Leke Leke & sunset Tanah Lot.',
-    longDesc: 'Explore Iconic Shot of Culture Heritage Hidden Gems and Twin Lake mengunjungi candi di tepi Danau Beratan dengan latar pegunungan, Handara Gate, Wanagiri Hidden Hills pemandangan Danau Buyan & Tamblingan, Air Terjun Leke Leke, dan pemandangan sunset di Candi Tanah Lot.',
+    shortDesc: 'Bali Swing, Hidden Waterfall & Tanah Lot Sunset Tour mengunjungi Candi Ulun Danu Beratan, Handara Gate, Twin Lake Wanagiri, Air Terjun Leke Leke & sunset Tanah Lot.',
+    longDesc: 'Bali Swing, Hidden Waterfall & Tanah Lot Sunset Tour mengunjungi candi di tepi Danau Beratan dengan latar pegunungan, Handara Gate, Wanagiri Hidden Hills pemandangan Danau Buyan & Tamblingan, Air Terjun Leke Leke, dan pemandangan sunset di Candi Tanah Lot.',
     bgImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787324702/34b12cec-98fb-4209-ae84-305b09b6324c.png',
     cardImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787324702/34b12cec-98fb-4209-ae84-305b09b6324c.png',
     pricePerPerson: 30,

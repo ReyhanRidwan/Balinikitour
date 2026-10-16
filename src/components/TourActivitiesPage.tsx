@@ -523,7 +523,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
     },
     {
       id: 'explore-iconic-culture-heritage-twin-lake',
-      title: 'Explore Iconic Shot of Culture Heritage Hidden Gems and Twin Lake',
+      title: 'Bali Swing, Hidden Waterfall & Tanah Lot Sunset Tour',
       categoryTag: 'Nature Trail',
       originalPrice: 93,
       discountedPrice: 30,
@@ -533,7 +533,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
       location: 'Kuta, Legian, Seminyak, Canggu, Jimbaran, Nusa Dua, Sanur, Ubud',
       difficulty: 'Medium',
       capacity: '1 Person',
-      description: 'Explore Iconic Shot of Culture Heritage Hidden Gems and Twin Lake mengunjungi Candi Ulun Danu Beratan, Handara Gate, Wanagiri Hidden Hills pemandangan Danau Buyan & Tamblingan, Air Terjun Leke Leke, dan pemandangan sunset di Candi Tanah Lot.',
+      description: 'Bali Swing, Hidden Waterfall & Tanah Lot Sunset Tour mengunjungi Candi Ulun Danu Beratan, Handara Gate, Wanagiri Hidden Hills pemandangan Danau Buyan & Tamblingan, Air Terjun Leke Leke, dan pemandangan sunset di Candi Tanah Lot.',
       image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787324702/34b12cec-98fb-4209-ae84-305b09b6324c.png',
       highlights: [
         'Mengunjungi Candi Ulun Danu Beratan di tepi Danau Beratan dengan panorama pegunungan & pagoda khas Bali',
@@ -887,7 +887,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
     },
     {
       id: 'explore-iconic-culture-heritage-twin-lake',
-      title: 'Explore Iconic Shot of Culture Heritage Hidden Gems and Twin Lake',
+      title: 'Bali Swing, Hidden Waterfall & Tanah Lot Sunset Tour',
       categoryTag: 'Full Day Tour',
       originalPrice: 93,
       discountedPrice: 30,
@@ -897,7 +897,7 @@ export default function TourActivitiesPage({ onBookNow, initialCategory = 'overv
       location: 'Kuta, Legian, Seminyak, Canggu, Jimbaran, Nusa Dua, Sanur, Ubud',
       difficulty: 'Medium',
       capacity: '1 Person',
-      description: 'Explore Iconic Shot of Culture Heritage Hidden Gems and Twin Lake mengunjungi Candi Ulun Danu Beratan, Handara Gate, Wanagiri Hidden Hills pemandangan Danau Buyan & Tamblingan, Air Terjun Leke Leke, dan pemandangan sunset di Candi Tanah Lot.',
+      description: 'Bali Swing, Hidden Waterfall & Tanah Lot Sunset Tour mengunjungi Candi Ulun Danu Beratan, Handara Gate, Wanagiri Hidden Hills pemandangan Danau Buyan & Tamblingan, Air Terjun Leke Leke, dan pemandangan sunset di Candi Tanah Lot.',
       image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787324702/34b12cec-98fb-4209-ae84-305b09b6324c.png',
       highlights: [
         'Mengunjungi Candi Ulun Danu Beratan di tepi Danau Beratan dengan panorama pegunungan & pagoda khas Bali',

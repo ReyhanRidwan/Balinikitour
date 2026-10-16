@@ -96,7 +96,7 @@ export const ALL_BOOKABLE_PACKAGES: BookablePackage[] = [
   },
   {
     id: 'explore-iconic-culture-heritage-twin-lake',
-    title: 'Explore Iconic Culture Heritage & Twin Lake Wanagiri',
+    title: 'Bali Swing, Hidden Waterfall & Tanah Lot Sunset Tour',
     category: 'Destinasi & Day Tours',
     pricePerPerson: 55,
     cardImage: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787324702/34b12cec-98fb-4209-ae84-305b09b6324c.png',

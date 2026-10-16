@@ -160,7 +160,7 @@ export const TOUR_TRANSLATIONS: Record<string, Partial<Record<Language, Localize
   // 5. explore-iconic-culture-heritage-twin-lake
   'explore-iconic-culture-heritage-twin-lake': {
     en: {
-      title: 'Explore Iconic Culture Heritage & Twin Lakes Wanagiri',
+      title: 'Bali Swing, Hidden Waterfall & Tanah Lot Sunset Tour',
       tagline: 'Ulun Danu Beratan • Handara Gate • Wanagiri Twin Lakes • Leke Leke Waterfall • Tanah Lot Sunset',
       shortDesc: 'A scenic highland journey across Bedugul with Handara Gate, Wanagiri viewpoints, waterfalls, and Tanah Lot sea sunset.',
       longDesc: 'Journey through Bali’s cooler northern highlands. Photograph the majestic stone architecture of Handara Gate, gaze over Twin Lakes Buyan and Tamblingan from Wanagiri Hills, visit Ulun Danu Beratan Temple, hike to Leke Leke Waterfall, and finish with a dramatic sunset at Tanah Lot offshore sea temple.',

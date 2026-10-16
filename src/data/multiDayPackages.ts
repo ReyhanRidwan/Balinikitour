@@ -176,7 +176,7 @@ export const multiDayPackages = [
       },
       {
         time: 'Day 4',
-        title: 'Explore Iconic Shot of Culture Heritage and Hidden Gems (Breakfast / Lunch)',
+        title: 'Bali Swing, Hidden Waterfall & Tanah Lot Sunset (Breakfast / Lunch)',
         description: '08:00 am : Pick-up services at your hotel.\n09:00 am : Visit Ulundanu Temple at shore of Beratan Lake in Bedugul.\n10:30 am : Taking Instagramable Picture at Handara Gate with Jungle Background.\n11:00 am : Visit Wanagiri Hills a beautiful destination known for its breathtaking landscapes.\n02:00 pm : Explore nature track at Leke Leke Waterfall.\n04:30 pm : Visit Tanah Lot Temple while waiting for sunset for the best picture.\n05:30 pm : Drive back to hotel.'
       },
       {

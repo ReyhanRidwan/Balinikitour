@@ -122,7 +122,7 @@ const PACKAGES_DATA: Record<string, PackagePreview> = {
   },
   'explore-iconic-culture-heritage-twin-lake': {
     id: 'explore-iconic-culture-heritage-twin-lake',
-    title: 'Explore Iconic Shot of Culture Heritage Hidden Gems and Twin Lake',
+    title: 'Bali Swing, Hidden Waterfall & Tanah Lot Sunset Tour',
     image: 'https://res.cloudinary.com/di6ziqvtp/image/upload/v1787324702/34b12cec-98fb-4209-ae84-305b09b6324c.png',
     badge: '66% Off',
     categoryTag: 'Full Day Tour',
@@ -130,7 +130,7 @@ const PACKAGES_DATA: Record<string, PackagePreview> = {
     discountedPrice: 30,
     savings: 63,
     durationBadge: '10 Hours',
-    description: 'Explore Iconic Shot of Culture Heritage Hidden Gems and Twin Lake mengunjungi Candi Ulun Danu Beratan, Handara Gate, Wanagiri Hidden Hills pemandangan Danau Buyan & Tamblingan, Air Terjun Leke Leke, dan pemandangan sunset di Candi Tanah Lot.',
+    description: 'Bali Swing, Hidden Waterfall & Tanah Lot Sunset Tour mengunjungi Candi Ulun Danu Beratan, Handara Gate, Wanagiri Hidden Hills pemandangan Danau Buyan & Tamblingan, Air Terjun Leke Leke, dan pemandangan sunset di Candi Tanah Lot.',
     location: 'Bedugul, Wanagiri & Tanah Lot',
     difficulty: 'Medium',
     highlights: [
